@@ -1,0 +1,17 @@
+@mixin d-flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin main-style {
+    width: 100%;
+
+    h1 {
+        color: rgb(10, 148, 200);
+        margin-bottom: 2rem;
+    }
+
+    @include d-flex(column, flex-start, center);
+}

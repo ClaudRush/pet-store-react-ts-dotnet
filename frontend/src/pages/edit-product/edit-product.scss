@@ -1,0 +1,7 @@
+@import '../../_mixins.scss';
+
+.edit-product {
+    @include main-style();
+
+    gap: 2rem;
+}

@@ -1,0 +1,11 @@
+@import '../../_mixins.scss';
+
+.home {
+    @include main-style();
+
+    img {
+        width: 450px;
+        max-width: 95%;
+        height: auto;
+    }
+}
